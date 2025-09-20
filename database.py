@@ -18,6 +18,7 @@ class Resume(Base):
     __tablename__ = "resumes"
     id = Column(Integer, primary_key=True, index=True)
     candidate_name = Column(String, index=True)
+    username = Column(String, unique=True)
     filename = Column(String)
     raw_text = Column(Text)
     relevance_score = Column(Float, default=None)
