@@ -1,0 +1,38 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+myvenv/
+.env/
+.env.*
+
+# SQLite database
+*.db
+
+# Uploads / temporary files
+uploads/
+*.log
+
+# IDE / editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# Mac / Linux system files
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
